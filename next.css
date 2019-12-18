@@ -1,0 +1,168 @@
+body{
+    background-color:aqua;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    line-height: 30px;
+}
+.laporan {
+    text-align: center;
+    float: right;
+    background-color: aquamarine;
+    font-size: 20px;
+    width: 235px;
+    padding: 10px;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.table-container {
+    width: 100%;
+}
+.title{
+    background-color: coral;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    min-width: 300px;
+    text-align; center;
+}
+
+hr{
+    margin: 0;
+    border: solid 1px coral;
+}
+
+.profile{
+    width: 50%;
+}
+
+.profile img{
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.table-container td {
+    vertical-align: top;
+    padding: 15px;
+}
+
+.skill .content{
+    background-color: azure;
+    color: goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skill ul{
+    margin: 0;
+    list-style: none;
+}
+
+.skill li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px grey;
+}
+
+.skill .level{
+    background-color: khaki;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100\;
+}
+
+
+.table th{
+    background-color:azure ;
+    color: goldenrod;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.table td{
+    padding: 10px 15px;
+}
+
+.table tr;:nth-child{add} {
+    background-color:azure ;
+}
+
+.table tr;:nth-child{even} {
+   background-color:grey ;
+}
+
+.table{
+    margin-top: 15px;
+}
+
+.project .content{
+width: 25%;
+float: left;
+text-align: center;
+padding: 15px;
+box-sizing: border-box;
+}
+
+.project img{
+    width: 100%;
+}
+
+footer {
+    background-color:whitesmoke;
+    padding: 10px 0px;
+}
+
+input[type="text"], textarea{
+    
+outline: none;
+padding: 10px 20px;
+background-color: azure;
+font-family: Arial, Helvetica, sans-serif;
+border: solid 3px cadetblue;
+border-radius:5px ;
+transition: all 0.5s;
+}
+
+
+input[type="text"] :focus, textarea :focus{
+    background-color: mediumblue;
+    border: solid 3px palegreen;
+    transition: all 0.5s;
+}
+.form-group{
+    margin-bottom:15px;
+}
+
+button{
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+
+button[type="kirim"] {
+    background-color: green;;
+    border-radius:solid 5px;
+}
+
+
+button[type="hapus"] {
+    background-color: red;
+    border-radius:solid 5px;
+}
